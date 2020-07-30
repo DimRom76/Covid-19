@@ -1,0 +1,124 @@
+:root {
+  --primary-text-color: #4b4f51;
+  --title-text-color: #212121;
+  --primary-white-color: #e5e5e5;
+  --primary-red-color: #fa5652;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+
+  font-family: 'Red Hat Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 221%;
+}
+
+button {
+  font-family: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.overlay {
+  /* max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url('../images/Header.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(47, 48, 58, 0.8);
+  padding: 200px 20%; */
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.logo-text {
+  color: #035755;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 1.315;
+  text-transform: uppercase;
+}
+
+.site-nav {
+  line-height: 1.222;
+}
+.hero {
+  text-transform: capitalize;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 139%;
+}
+
+.hero-title-red {
+  color: var(--primary-red-color);
+  font-size: 32px;
+  line-height: 122%;
+  text-transform: none;
+}
+
+.hero-text {
+  font-size: 24px;
+  line-height: 190%;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 119%;
+
+  text-align: center;
+  text-transform: capitalize;
+}
+.section-title-red {
+  color: var(--primary-red-color);
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 124%;
+  text-transform: none;
+}
